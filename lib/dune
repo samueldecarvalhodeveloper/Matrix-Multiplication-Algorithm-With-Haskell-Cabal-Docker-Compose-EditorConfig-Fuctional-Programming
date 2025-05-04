@@ -1,0 +1,4 @@
+(library
+ (name matrix_multiplication)
+ (modules
+ matrix_multiplication_adapter))

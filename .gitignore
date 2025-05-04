@@ -1,0 +1,69 @@
+# Compiled binary files
+*.o
+*.cmx
+*.cmxa
+*.cmxs
+*.cmo
+*.cma
+*.cmi
+*.out
+*.exe
+
+# Dune and OPAM build artifacts
+_build/
+*.install
+.dune/
+.dune-project.lock
+dune-workspace
+dune-workspace.dev
+
+# OPAM dependencies
+.opam/
+.opam-switch/
+.opam-switch/build/
+.opam-switch/install/
+
+# utop (OCaml interactive shell) history
+.utop-history
+
+# Merlin editor support files
+*.merlin
+*.merlin-exists
+
+# LSP / editor support files
+.ocamlformat
+.ocamlformat-ignore
+*.swp
+*.swo
+
+# Editor backups and temporary files
+*~
+*.bak
+*.tmp
+*.log
+
+# VS Code settings
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+
+# Emacs files
+*.elc
+auto-save-list
+tramp
+ido.last
+projectile-bookmarks.eld
+
+# Vim files
+*.swp
+*.swo
+*.vimbackup
+*.vimswap
+
+# JetBrains IDE (IntelliJ, CLion, etc.)
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
